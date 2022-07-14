@@ -1,5 +1,7 @@
 #### :notebook: Toodle-eww
-A basic todo server hosted on AWS Lambda with state management using this Github Repo
+A basic todo server hosted on AWS Lambda with state management using this Github Repo  
+
+The API updates the list of todos at [data/todo.csv](data/todo.csv)
 
 ### :hammer: Testing
 ```bash
