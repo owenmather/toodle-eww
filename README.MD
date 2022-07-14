@@ -1,6 +1,11 @@
 #### :notebook: Toodle-eww
 A basic todo server hosted on AWS Lambda with state management using this Github Repo
 
+### :hammer: Testing
+```bash
+pip install requirements.txt
+python test/test_main.py
+```
 
 ### :anchor: Endpoints 
 REST API Endpoints exposed by the backend
@@ -15,12 +20,12 @@ REST API Endpoints exposed by the backend
 
 
 ### :flags: Environment Variables
-Environment Variables exposed by the backend
+Environment Variables used by the backend
 
 
 | Variable | Value | Description |
 | -------- | ----- | ----- |
-| `GITHUB_REPO` | `postgres://user:pass@host:port/database` | URL to Github Repo |
+| `GITHUB_REPO` | `owenmather/toodle-eww` | ${OWNER}/${REPO} for Github Repo housing csv |
 | `GITHUB_TOKEN` | `secret` | Token for GitHub Auth |
 | `BRANCH` | `master` | branch file is located in |
 | `TODO_PATH` | `data/todo.csv` | Path to CSV file in repo |
